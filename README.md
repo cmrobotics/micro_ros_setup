@@ -50,17 +50,9 @@ Please note that each RTOS has its configuration approach that you might use for
 
 In summary, the supported configurations for transports are:
 
-|                               |       NuttX        |     FreeRTOS      |       Zephyr       |
+|                               |       NuttX        |     **FreeRTOS**      |       Zephyr       |
 | ----------------------------- | :----------------: | :---------------: | :----------------: |
-| Olimex STM32-E407             | USB, UART, Network |   UART, Network   |     USB, UART      |
-| ST B-L475E-IOT01A             |         -          |         -         | USB, UART, Network |
-| Crazyflie 2.1                 |         -          | Custom Radio Link |         -          |
-| Espressif ESP32               |         -          |  UART, WiFI UDP   |         -          |
-| ST Nucleo F446RE <sup>1</sup> |         -          |       UART        |         -          |
-| ST Nucleo F446ZE <sup>1</sup> |         -          |       UART        |         -          |
-| ST Nucleo H743ZI <sup>1</sup> |         -          |         -         |        UART        |
-| ST Nucleo F746ZG <sup>1</sup> |         -          |       UART        |        UART        |
-| ST Nucleo F767ZI <sup>1</sup> |         -          |       UART        |         -          |
+| Olimex STM32-E407             | USB, UART, Network |   UART, **Network**   |     USB, UART      |
 
 *<sup>1</sup> Community supported, may have lack of official support*
 
