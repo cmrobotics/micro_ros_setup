@@ -23,4 +23,5 @@ pushd $FW_TARGETDIR >/dev/null
     touch mcu_ws/uros/rclc/rclc_examples/COLCON_IGNORE
 
     rosdep install -y --from-paths mcu_ws -i mcu_ws --rosdistro $ROS_DISTRO --skip-keys="$SKIP"
+    git clone git@github.com:cmrobotics/cmr_stm32_msgs.git mcu_ws/cmr_stm32_msgs
 popd >/dev/null
